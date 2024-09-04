@@ -1,0 +1,9 @@
+2024-08-28 16:40:32 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TEAM" not found; SQL statement:
+select * from team where playerName = ? and jerseyNumber = ? [42102-214]
+2024-08-28 16:40:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TEAM" not found; SQL statement:
+update team set playerName = ? where movieId =? [42102-214]
+2024-08-28 16:40:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "TEAM" not found; SQL statement:
+update team set playerName = ? where movieId =? [42102-214]
